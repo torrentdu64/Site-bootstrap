@@ -1,0 +1,177 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 23 juin 2017, 10:47:29
+    Author     : Micka
+*/
+
+/*** IMPORT ***/
+
+
+/*** GLOBAL ***/
+
+$Global-Margin: 0px;
+$Global-Padding: 0px;
+
+$Global-FontFamily-SansSerif: Sans-Serif;
+// $Global-FontFamily-SansSerif: Sans-Serif;
+
+/*** NAV ***/
+
+$nav-Width: 100%;
+$nav-Height: 50px;
+$nav-Border: 2px solid white;
+
+$nav-FontSize: 2em;
+$nav-Color: white;
+
+/*** HEADER ***/
+
+/*** SECTION SLIDERS ***/
+
+/*** SECTION CARDS ***/
+
+/*** SECTION PROFILES ***/
+
+/*** FOOTER TOP ***/
+
+/*** FOOTER BOTTOM ***/
+
+
+#html{
+    margin: $Global-Margin;
+    padding: $Global-Padding;
+}
+
+#body{
+    margin: $Global-Margin;
+    padding: $Global-Padding;
+}
+
+/*** NAV ***/
+
+#nav{
+    width: $nav-Width;
+    height: $nav-Height;
+    border: $nav-Border;
+}
+
+#nav ul{
+
+}
+
+#nav ul > li{
+    font-size: $nav-FontSize;
+    color: $nav-Color;
+}
+
+/*** HEADER ***/
+
+#header{
+
+}
+
+#header h1{
+
+}
+
+#header p{
+
+}
+
+#header .button{
+
+}
+
+/*** SECTION SLIDERS ***/
+
+#sectionSliders{
+
+}
+
+#sectionSliders .slider{
+
+}
+
+#sectionSliders .slider img{
+
+}
+
+/*** SECTION CARDS ***/
+
+#sectionCards{
+
+}
+
+#sectionCards h2{
+
+}
+
+#sectionCards fa{ // fa = FontAwesonne
+
+}
+
+#sectionCards h3{
+
+}
+
+#sectionCards p{
+
+}
+
+/*** SECTION PROFILES ***/
+
+#sectionProfiles{
+
+}
+
+#sectionProfiles .sectionProfilesImg{
+
+}
+
+#sectionProfiles h3{
+
+}
+
+#sectionProfiles p{
+
+}
+
+#sectionProfiles .sectionProfilesImgGuillements{
+
+}
+
+/*** FOOTER TOP ***/
+
+#footerTop{
+
+}
+
+#footerTop h3{
+
+}
+
+#footerTop p{
+
+}
+
+/*** FOOTER BOTTOM ***/
+
+#footerBottom{
+
+}
+
+#footerBottom .footerBottomBorder{
+
+}
+
+#footerBottom p{
+
+}
+
+#footerBottom .footerBottomLogoReseaux{
+
+}
