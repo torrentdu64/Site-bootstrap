@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Expense Manager</title>
         <meta charset="UTF-8">
         <link href="css/desktop.css" rel="stylesheet" type="text/css"/>
         <link href="css/mobile.css" rel="stylesheet" type="text/css"/>
@@ -14,64 +14,26 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        
-    <div id="nav">
-        <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand logo" href="#">Brand</a>
-                    </div>
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Store <span class="sr-only">(current)</span></a></li>
-                            <li><a href="#">Demo</a></li>
-                            <li><a href="#">Produits</a></li>
-                            <li><a href="#">Connection</a></li>
+    <?php include("include/nav.php"); ?>
 
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="#">One more separated link</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
-            </nav> 
-      </div>
-            
 
-        
+
       <div id="header">
            <div class="container">
                <div class="row">
             <h1>VOTRE ÉQUIPE PASSE-T-ELLE TROP DE TEMPS SUR LES RAPPORTS DE DÉPENSES ?</h1>
                </div>
                <div class="row">
-            <p>De la saisie des justificatifs jusqu’au remboursement des frais, chaque étape du processus peut être traitée depuis votre smartphone ou tablette. Expense manager simplifie la tâche des employés et des responsables en leur permettant de de gérer les notes de frais lorsqu'ils sont en déplacement.</p> 
+            <p>De la saisie des justificatifs jusqu’au remboursement des frais, chaque étape du processus peut être traitée depuis votre smartphone ou tablette. Expense manager simplifie la tâche des employés et des responsables en leur permettant de de gérer les notes de frais lorsqu'ils sont en déplacement.</p>
                </div>
                <div class="row">
             <button type="button" class="btn btn-primary btn-lg button">Large button</button>
                </div>
            </div>
-      </div>   
-        
-        
+      </div>
+
+
         <div id="sectionSliders">
             <div class="slider">
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -97,22 +59,22 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
-        
-        
+
+
         <div id="sectionCards">
             <div class="container">
                 <div class="row">
                     <img src="" alt=""/><h2>CE QUE EXPENSE MANAGER PEU FAIRE POUR VOUS</h2>
-                </div>       
+                </div>
             </div>
-            
+
           <div class="row">
               <div class="col-lg-4">
             <div class="tabTop-1">
                 <img class="fa" alt=""/>
                 <h3>Automatisez l’enregistrement des dépenses</h3>
                 <p>Transformez les reçus dans les entrées de dépenses automatiquement. Regroupez-les et soumettez un rapport de dépenses en ligne en un seul clic</p>
-            </div> 
+            </div>
                </div>
               <div class="col-lg-4">
             <div class="tabTop-2">
@@ -127,18 +89,18 @@ and open the template in the editor.
                 <h3>Envoyer des rapports de dépenses sur la route.</h3>
                  <p>Enregistrez les dépenses où que vous soyez et soumettez un rapport complet à l’aide de votre smartphone.</p>
             </div>
-              </div>    
+              </div>
           </div>
-            
-            
+
+
            <div class="row">
                 <div class="col-lg-4">
             <div class="tabBottom-1">
                 <img class="fa" alt=""/>
                 <h3>Contrôlez vos dépenses.</h3>
                  <p>Plus de confusion concernant les dépenses autorisé ou les limites de dépenses. Regroupez-les et soumettez un rapport de dépenses en ligne en un seul clic</p>
-            </div> 
-                </div> 
+            </div>
+                </div>
                 <div class="col-lg-4">
             <div class="tabBottom-2">
                 <img class="fa" alt=""/>
@@ -155,89 +117,51 @@ and open the template in the editor.
                 </div>
         </div>
      </div>
-        
-        
+
+
         <div id="sectionProfiles">
-          <div class="container"> 
+          <div class="container">
               <div class="row">
-         <div class="col-lg-4">      
-          <div class="sectionProfilesLight">  
+         <div class="col-lg-4">
+          <div class="sectionProfilesLight">
            <!-- IMG -->
            <h3>DAVID LACOURTE</h3>
            <p>Commercial</p>
-          
+
            <div class="sectionProfilesImgGuillements"></div>
                <p>Il faut à mes collègues moins de cinq minutes pour télécharger les reçus, créer des rapports de dépenses et les soumettre pour approbation.</p>
             <div class="sectionProfilesImgGuillements"></div>
           </div>
-           </div>  
-            
-            <div class="sectionProfilesStrong">  
-           <div class="col-lg-4"> 
+           </div>
+
+            <div class="sectionProfilesStrong">
+           <div class="col-lg-4">
            <h3>CYNTHIA REINHARDT</h3>
            <p>Manager</p>
-           
+
            <div class="sectionProfilesImgGuillements"></div>
                <p>Avoir un système qui peut contrôler et gérer les rapports, les envoyer pour approbation et suivre cette progression de l’employé à la comptabilité est beaucoup plus facile et plus fiable que l’envoi d’emails et de pièces jointes autour de l’organisation.</p>
            <div class="sectionProfilesImgGuillements"></div>
           </div>
             </div>
-           <div class="col-lg-4">        
-            <div class="sectionProfilesLight">  
+           <div class="col-lg-4">
+            <div class="sectionProfilesLight">
            <!-- IMG -->
            <h3>MICKAEL DUPRAT</h3>
            <p>Comptable</p>
-           
+
            <div class="sectionProfilesImgGuillements"></div>
                <p>Il faut à mes collègues moins de cinq minutes pour télécharger les reçus, créer des rapports de dépenses et les soumettre pour approbation.</p>
            <div class="sectionProfilesImgGuillements"></div>
           </div>
-           </div>           
-              </div>   
-          </div>                        
+           </div>
+              </div>
+          </div>
         </div>
-        
-        
-        <div id="footerTop">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h3>QUI SOMMES-NOUS</h3>
-                        <p>E-Pau Tech est un éditeur de logiciels dont la vocation est d’automatiser les processus administratifs.</p>
-                    </div>
-                    
-                    <div class="col-lg-6">
-                        <h3>COORDONNÉES</h3>
-                        <p>E-Pau Tech, 2 rue Jules Ferry 64000 PAU</p>
-                        <p>05 59 62 73 11</p>
-                        <p>contact@e-pau-tech.com</p>
-                    </div>
-                </div>
-            </div>   
-        </div>
-        
-        
-        <div id="footerBottom">
-            <div class="footerBottomBorder"></div>
-            <div class="container">
-                <div class="row">        
-                    <div class="col-lg-4">
-                        <p>©DevWebMobile-G2 2017</p>
-                    </div>
-                    
-                     <div class="col-lg-4">
-                        <p>Mentions légales</p>
-                    </div>
-                    
-                    <div class="col-lg-4">
-                         <div class="footerBottomLogoReseaux">
-                         <!-- IMAGES Reseaux sociaux -->
-                    </div>
-                    </div>   
-                </div>
-            </div>
-        </div>
- 
+
+
+        <?php include("include/footer.php"); ?>
+
 
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
