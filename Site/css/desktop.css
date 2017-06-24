@@ -34,7 +34,9 @@ and open the template in the editor.
   font-size: 2em;
   color: white; }
 
-
+.row{
+  width:100%;
+}
 
 /*** HEADER ***/
 #header {
