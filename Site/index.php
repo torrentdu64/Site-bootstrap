@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<!--
+﻿<!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-<<<<<<< HEAD
+
     <head>
         <title>Expense Manager</title>
         <meta charset="UTF-8">
@@ -40,6 +39,7 @@ and open the template in the editor.
                </div>
            </div>
       </div>
+
 
 	<div id="sectionSliders" class="carousel slide" data-ride="carousel">
 			<div class="slider">
@@ -81,7 +81,6 @@ and open the template in the editor.
             <div class="container-fluid">
                 <div class="row">
                     <h2>CE QUE EXPENSE MANAGER PEUT FAIRE POUR VOUS</h2>
-=======
   <head>
     <title>TODO supply a title</title>
     <meta charset="UTF-8">
@@ -138,25 +137,43 @@ and open the template in the editor.
             </div>
             <div class="row">
               <button type="button" class="btn btn-primary btn-lg button">Large button</button>
+
+
+        <div id="sectionSliders">
+            <div class="slider">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid" src="..." alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="..." alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="..." alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
             </div>
-          </div>
         </div>
-        <head>
-          <title>Expense Manager</title>
-          <meta charset="UTF-8">
-          <link href="css/desktop.css" rel="stylesheet" type="text/css"/>
-          <link href="css/mobile.css" rel="stylesheet" type="text/css"/>
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        </head>
-        <body>
-          <?php include("include/nav.php"); ?>
-          <div id="header">
+
+
+        <div id="sectionCards">
             <div class="container-fluid">
+
               <div class="row">
                 <div class="col-lg-6 col-lg-push-3">
                   <h1>VOTRE ÉQUIPE PASSE-T-ELLE TROP DE TEMPS SUR LES RAPPORTS DE DÉPENSES ?</h1>
->>>>>>> 7e526884a7a01b6fc1b1b1f7a697515a259c2d68
+
                 </div>
               </div>
               <div class="row">
@@ -183,212 +200,124 @@ and open the template in the editor.
                   </div>
                   <div class="carousel-item">
                     <img class="d-block img-fluid" src="..." alt="Third slide">
+
+                <div class="row">
+                  <div class="col-lg-6 col-lg-push-3">
+                    <img src="" alt=""/><h2>CE QUE EXPENSE MANAGER PEU FAIRE POUR VOUS</h2>
+
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
             </div>
+
+          <div class="row">
+              <div class="col-lg-4">
+            <div class="tabTop-1">
+                <img class="fa" alt=""/>
+                <h3>Automatisez l’enregistrement des dépenses</h3>
+                <p>Transformez les reçus dans les entrées de dépenses automatiquement. Regroupez-les et soumettez un rapport de dépenses en ligne en un seul clic</p>
+            </div>
+               </div>
+              <div class="col-lg-4">
+            <div class="tabTop-2">
+                <img class="fa" alt=""/>
+                <h3>Importer des transactions par carte.</h3>
+                   <p>Capturez les opérations de débit et de carte de crédit, puis transformez-les en entrées de frais.</p>
+            </div>
+              </div>
+               <div class="col-lg-4">
+            <div class="tabTop-3">
+                <img class="fa" alt=""/>
+                <h3>Envoyer des rapports de dépenses sur la route.</h3>
+                 <p>Enregistrez les dépenses où que vous soyez et soumettez un rapport complet à l’aide de votre smartphone.</p>
+            </div>
+              </div>
           </div>
-          <div id="sectionCards">
-            <div class="container">
-              <div class="row">
-                <img src="" alt=""/><h2>CE QUE EXPENSE MANAGER PEU FAIRE POUR VOUS</h2>
-              </div>
+
+
+           <div class="row">
+                <div class="col-lg-4">
+            <div class="tabBottom-1">
+                <img class="fa" alt=""/>
+                <h3>Contrôlez vos dépenses.</h3>
+                 <p>Plus de confusion concernant les dépenses autorisé ou les limites de dépenses. Regroupez-les et soumettez un rapport de dépenses en ligne en un seul clic</p>
             </div>
-            <div class="container-fluid">
-              <div class="row">
-                <img src="" alt=""/><h2>CE QUE EXPENSE MANAGER PEU FAIRE POUR VOUS</h2>
-              </div>
+                </div>
+                <div class="col-lg-4">
+            <div class="tabBottom-2">
+                <img class="fa" alt=""/>
+                 <h3>Simplifiez le processus d’approbation.</h3>
+                 <p>Rendez la vie facile avec des approbations et des rappels instantanés pour les rapports de dépenses en attente</p>
             </div>
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="tabTop-1">
-                  <img class="fa" alt=""/>
-                  <h3>Automatisez l’enregistrement des dépenses</h3>
-                  <p>Transformez les reçus dans les entrées de dépenses automatiquement. Regroupez-les et soumettez un rapport de dépenses en ligne en un seul clic</p>
                 </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="tabTop-2">
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="tabTop-2">
-                  <img class="fa" alt=""/>
-                  <h3>Importer des transactions par carte.</h3>
-                  <p>Capturez les opérations de débit et de carte de crédit, puis transformez-les en entrées de frais.</p>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="tabTop-3">
-                  <img class="fa" alt=""/>
+                <div class="col-lg-4">
+             <div class="tabBottom-3">
+                 <img class="fa" alt=""/>
                   <h3>Envoyer des rapports de dépenses sur la route.</h3>
-                  <p>Enregistrez les dépenses où que vous soyez et soumettez un rapport complet à l’aide de votre smartphone.</p>
-                </div>
-              </div>
+                  <p>Gérer les dépenses pour rendre votre entreprise plus efficace. Afficher les rapports en fonction de la catégorie de dépenses,des violations des règles et plus encore...</p>
             </div>
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="tabBottom-1">
-                  <img class="fa" alt=""/>
-                  <h3>Contrôlez vos dépenses.</h3>
-                  <p>Plus de confusion concernant les dépenses autorisé ou les limites de dépenses. Regroupez-les et soumettez un rapport de dépenses en ligne en un seul clic</p>
                 </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="tabBottom-2">
-                </div>
-              </div>
+        </div>
+     </div>
+
+
+        <div id="sectionProfiles">
+          <div class="container-fluid">
               <div class="row">
-                <div class="col-lg-4">
-                  <div class="tabBottom-1">
-                    <img class="fa" alt=""/>
-                    <h3>Contrôlez vos dépenses.</h3>
-                    <p>Plus de confusion concernant les dépenses autorisé ou les limites de dépenses. Regroupez-les et soumettez un rapport de dépenses en ligne en un seul clic</p>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="tabBottom-2">
-                    <img class="fa" alt=""/>
-                    <h3>Simplifiez le processus d’approbation.</h3>
-                    <p>Rendez la vie facile avec des approbations et des rappels instantanés pour les rapports de dépenses en attente</p>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="tabBottom-3">
-                    <img class="fa" alt=""/>
-                    <h3>Envoyer des rapports de dépenses sur la route.</h3>
-                    <p>Gérer les dépenses pour rendre votre entreprise plus efficace. Afficher les rapports en fonction de la catégorie de dépenses,des violations des règles et plus encore...</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="sectionProfiles">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-4">
-                    <div class="sectionProfilesLight">
-                      <!-- IMG -->
-                      <h3>DAVID LACOURTE</h3>
-                      <p>Commercial</p>
-                      <div class="sectionProfilesImgGuillements"></div>
-                      <p>Il faut à mes collègues moins de cinq minutes pour télécharger les reçus, créer des rapports de dépenses et les soumettre pour approbation.</p>
-                      <div class="sectionProfilesImgGuillements"></div>
-                    </div>
-                  </div>
-                  <div class="sectionProfilesStrong">
-                    <div class="col-lg-4">
-                      <h3>CYNTHIA REINHARDT</h3>
-                      <p>Manager</p>
-                      <div class="sectionProfilesImgGuillements"></div>
-                      <p>Avoir un système qui peut contrôler et gérer les rapports, les envoyer pour approbation et suivre cette progression de l’employé à la comptabilité est beaucoup plus facile et plus fiable que l’envoi d’emails et de pièces jointes autour de l’organisation.</p>
-                      <div class="sectionProfilesImgGuillements"></div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="sectionProfilesLight">
-                      <!-- IMG -->
-                      <h3>MICKAEL DUPRAT</h3>
-                      <p>Comptable</p>
-                      <div class="sectionProfilesImgGuillements"></div>
-                      <p>Il faut à mes collègues moins de cinq minutes pour télécharger les reçus, créer des rapports de dépenses et les soumettre pour approbation.</p>
-                      <div class="sectionProfilesImgGuillements"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="footerTop">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <h3>QUI SOMMES-NOUS</h3>
-                    <p>E-Pau Tech est un éditeur de logiciels dont la vocation est d’automatiser les processus administratifs.</p>
-                  </div>
-                  <div class="col-lg-6">
-                    <h3>COORDONNÉES</h3>
-                    <p>E-Pau Tech, 2 rue Jules Ferry 64000 PAU</p>
-                    <p>05 59 62 73 11</p>
-                    <p>contact@e-pau-tech.com</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="footerBottom">
-              <div class="footerBottomBorder"></div>
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-4">
-                    <p>©DevWebMobile-G2 2017</p>
-                  </div>
-                  <div class="col-lg-4">
-                    <p>Mentions légales</p>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="footerBottomLogoReseaux">
-                      <!-- IMAGES Reseaux sociaux -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+         <div class="col-lg-4 col-md-4">
+          <div class="sectionProfilesLight">
+           <!-- IMG -->
+           <h3>DAVID LACOURTE</h3>
+           <p>Commercial</p>
+
+           <div class="sectionProfilesImgGuillements"></div>
+               <p>Il faut à mes collègues moins de cinq minutes pour télécharger les reçus, créer des rapports de dépenses et les soumettre pour approbation.</p>
+            <div class="sectionProfilesImgGuillements"></div>
           </div>
-          <div id="sectionProfiles">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-4 col-md-4">
-                  <div class="sectionProfilesLight">
-                    <!-- IMG -->
-                    <h3>DAVID LACOURTE</h3>
-                    <p>Commercial</p>
-                    <div class="sectionProfilesImgGuillements"></div>
-                    <p>Il faut à mes collègues moins de cinq minutes pour télécharger les reçus, créer des rapports de dépenses et les soumettre pour approbation.</p>
-                    <div class="sectionProfilesImgGuillements"></div>
-                  </div>
-                </div>
-                <div class="secstionProfilesStrong">
-                  <div class="col-lg-4 col-md-4">
-                    <h3>CYNTHIA REINHARDT</h3>
-                    <p>Manager</p>
-                    <div class="sectionProfilesImgGuillements"></div>
-                    <p>Avoir un système qui peut contrôler et gérer les rapports, les envoyer pour approbation et suivre cette progression de l’employé à la comptabilité est beaucoup plus facile et plus fiable que l’envoi d’emails et de pièces jointes autour de l’organisation.</p>
-                    <div class="sectionProfilesImgGuillements"></div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                  <div class="sectionProfilesLight">
-                    <!-- IMG -->
-                    <h3>MICKAEL DUPRAT</h3>
-                    <p>Comptable</p>
-                    <div class="sectionProfilesImgGuillements"></div>
-                    <p>Il faut à mes collègues moins de cinq minutes pour télécharger les reçus, créer des rapports de dépenses et les soumettre pour approbation.</p>
-                    <div class="sectionProfilesImgGuillements"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
+           </div>
+
+            <div class="secstionProfilesStrong">
+           <div class="col-lg-4 col-md-4">
+           <h3>CYNTHIA REINHARDT</h3>
+           <p>Manager</p>
+
+           <div class="sectionProfilesImgGuillements"></div>
+               <p>Avoir un système qui peut contrôler et gérer les rapports, les envoyer pour approbation et suivre cette progression de l’employé à la comptabilité est beaucoup plus facile et plus fiable que l’envoi d’emails et de pièces jointes autour de l’organisation.</p>
+           <div class="sectionProfilesImgGuillements"></div>
           </div>
-<<<<<<< HEAD
+            </div>
+           <div class="col-lg-4 col-md-4">
+            <div class="sectionProfilesLight">
+           <!-- IMG -->
+           <h3>MICKAEL DUPRAT</h3>
+           <p>Comptable</p>
+
+           <div class="sectionProfilesImgGuillements"></div>
+               <p>Il faut à mes collègues moins de cinq minutes pour télécharger les reçus, créer des rapports de dépenses et les soumettre pour approbation.</p>
+           <div class="sectionProfilesImgGuillements"></div>
+          </div>
+           </div>
+              </div>
+          </div>
         </div>
 
 
         <?php include("include/footer.php"); ?>
 
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   
     </body>
 </html>
-=======
+
           <?php include("include/footer.php"); ?>
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         </body>
       </html>
->>>>>>> 7e526884a7a01b6fc1b1b1f7a697515a259c2d68
+
+
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    </body>
+</html>
+
