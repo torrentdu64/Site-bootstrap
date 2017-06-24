@@ -1,10 +1,10 @@
-﻿<!--
+﻿<!DOCTYPE html>
+<!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-
     <head>
         <title>Expense Manager</title>
         <meta charset="UTF-8">
@@ -16,7 +16,6 @@ and open the template in the editor.
     <body>
 
     <?php include("include/nav.php"); ?>
-
 
 
 
@@ -39,104 +38,6 @@ and open the template in the editor.
                </div>
            </div>
       </div>
-
-
-	<div id="sectionSliders" class="carousel slide" data-ride="carousel">
-			<div class="slider">
-				<ol class="carousel-indicators">
-					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-				</ol>
-
-				<!-- Wrapper for slides -->
-			<div class="carousel-inner" role="listbox">
-				<div class="item active">
-                    <img src="images/devices.png" title="koala" class="img-responsive center-block" alt="Devices"/>
-                </div>        
-		
-			<div class="item">
-                    <img src="images/Desktop.png" alt="Desktop">	
-			</div>
-			
-			</div>
-  
- 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#sectionSliders" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#sectionSliders" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-  </div>
-</div>
-
-		
-
-
-        <div id="sectionCards">
-            <div class="container-fluid">
-                <div class="row">
-                    <h2>CE QUE EXPENSE MANAGER PEUT FAIRE POUR VOUS</h2>
-  <head>
-    <title>TODO supply a title</title>
-    <meta charset="UTF-8">
-    <link href="css/desktop.css" rel="stylesheet" type="text/css"/>
-    <link href="css/mobile.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <div id="nav">
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand logo" href="#">Brand</a>
-          </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Store <span class="sr-only">(current)</span></a></li>
-              <li><a href="#">Demo</a></li>
-              <li><a href="#">Produits</a></li>
-              <li><a href="#">Connection</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-            </ul>
-            </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-          </nav>
-        </div>
-        <div id="header">
-          <div class="container">
-            <div class="row">
-              <h1>VOTRE ÉQUIPE PASSE-T-ELLE TROP DE TEMPS SUR LES RAPPORTS DE DÉPENSES ?</h1>
-            </div>
-            <div class="row">
-              <p>De la saisie des justificatifs jusqu’au remboursement des frais, chaque étape du processus peut être traitée depuis votre smartphone ou tablette. Expense manager simplifie la tâche des employés et des responsables en leur permettant de de gérer les notes de frais lorsqu'ils sont en déplacement.</p>
-            </div>
-            <div class="row">
-              <button type="button" class="btn btn-primary btn-lg button">Large button</button>
 
 
         <div id="sectionSliders">
@@ -162,49 +63,15 @@ and open the template in the editor.
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-
             </div>
         </div>
 
 
         <div id="sectionCards">
             <div class="container-fluid">
-
-              <div class="row">
-                <div class="col-lg-6 col-lg-push-3">
-                  <h1>VOTRE ÉQUIPE PASSE-T-ELLE TROP DE TEMPS SUR LES RAPPORTS DE DÉPENSES ?</h1>
-
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-8 col-lg-push-2">
-                  <p>De la saisie des justificatifs jusqu’au remboursement des frais, chaque étape du processus peut être traitée depuis votre smartphone ou tablette. Expense manager simplifie la tâche des employés et des responsables en leur permettant de de gérer les notes de frais lorsqu'ils sont en déplacement.</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-12">
-                  <button type="button" class="button">Large button</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="sectionSliders">
-            <div class="slider">
-              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner" role="listbox">
-                  <div class="carousel-item active">
-                    <img class="d-block img-fluid" src="..." alt="First slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block img-fluid" src="..." alt="Second slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block img-fluid" src="..." alt="Third slide">
-
                 <div class="row">
                   <div class="col-lg-6 col-lg-push-3">
                     <img src="" alt=""/><h2>CE QUE EXPENSE MANAGER PEU FAIRE POUR VOUS</h2>
-
                   </div>
                 </div>
             </div>
@@ -304,20 +171,7 @@ and open the template in the editor.
         <?php include("include/footer.php"); ?>
 
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   
-    </body>
-</html>
-
-          <?php include("include/footer.php"); ?>
-          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        </body>
-      </html>
-
-
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     </body>
 </html>
-
