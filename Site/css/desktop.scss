@@ -199,7 +199,7 @@ $FooterBottom-Padding: 10px;
     text-align: $Global-TextAlignJustify;
     color: $FooterTop-Color;
     background-color: $FooterTop-BackgroundColor;
-    border: $FooterTop-Border;
+    border-bottom: $FooterTop-Border;
 }
 
 #footerTop h3{

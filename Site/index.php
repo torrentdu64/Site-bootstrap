@@ -140,7 +140,7 @@ and open the template in the editor.
           </div>
            </div>
 
-            <div class="sectionProfilesStrong">
+            <div class="secstionProfilesStrong">
            <div class="col-lg-4 col-md-4">
            <h3>CYNTHIA REINHARDT</h3>
            <p>Manager</p>
