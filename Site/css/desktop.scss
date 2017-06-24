@@ -3,7 +3,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/* 
+/*
     Created on : 23 juin 2017, 10:47:29
     Author     : Micka
 */
@@ -13,15 +13,19 @@ and open the template in the editor.
 
 /*** GLOBAL ***/
 
+$Global-Width: 100%;
 $Global-Margin: 0px;
 $Global-Padding: 0px;
 
 $Global-FontFamily-SansSerif: Sans-Serif;
+$Global-TextAlignCenter: center;
+$Global-TextAlignJustify: justify;
+$Global-FontWeight: bold;
+
 // $Global-FontFamily-SansSerif: Sans-Serif;
 
 /*** NAV ***/
 
-$nav-Width: 100%;
 $nav-Height: 50px;
 $nav-Border: 2px solid white;
 
@@ -29,6 +33,25 @@ $nav-FontSize: 2em;
 $nav-Color: white;
 
 /*** HEADER ***/
+
+$Header-BackgroundColor: #3C5F6E;
+$Header-Padding: 40px;
+
+$HeaderH1-Color: #F4BE3A;
+$HeaderH1-FontSize: 24px;
+$HeaderH1-Padding: 40px;
+
+$HeaderP-Color: white;
+$HeaderP-FontSize: 18px;
+$HeaderP-Padding: 40px;
+
+$HeaderButton-Border: 0px;
+$HeaderButton-BackgroundColor: #F4BE3A;
+$HeaderButton-Padding: 18px 25px;
+$HeaderButton-FontSize: 18px;
+$HeaderButton-Color: white;
+$HeaderButton-Margin: 0 auto;
+$HeaderButton-Display: block;
 
 /*** SECTION SLIDERS ***/
 
@@ -38,10 +61,19 @@ $nav-Color: white;
 
 /*** FOOTER TOP ***/
 
+$FooterTop-Color: white;
+$FooterTop-Padding: 10px;
+$FooterTop-Border: 3px solid white;
+$FooterTop-Padding: 10px;
+$FooterTop-BackgroundColor: #133036;
+
 /*** FOOTER BOTTOM ***/
 
+$FooterBottom-Color: white;
+$FooterBottom-BackgroundColor: #133036;
+$FooterBottom-Padding: 10px;
 
-#htm{
+#html{
     margin: $Global-Margin;
     padding: $Global-Padding;
 }
@@ -54,124 +86,146 @@ $nav-Color: white;
 /*** NAV ***/
 
 #nav{
-    width: $nav-Width;
+    width: $Global-Width;
     height: $nav-Height;
     border: $nav-Border;
 }
 
 #nav ul{
-    
+
 }
 
 #nav ul > li{
     font-size: $nav-FontSize;
     color: $nav-Color;
+    text-align: $Global-TextAlignCenter;
 }
 
 /*** HEADER ***/
 
 #header{
-    
+    width: $Global-Width;
+    background-color: $Header-BackgroundColor;
+    padding: $Header-Padding;
 }
 
 #header h1{
-    
+    color: $HeaderH1-Color;
+    font-size: $HeaderH1-FontSize;
+    text-align: $Global-TextAlignCenter;
+    padding-bottom: $HeaderH1-Padding;
 }
 
 #header p{
-    
+    color: $HeaderP-Color;
+    font-size:  $HeaderP-FontSize;
+    text-align: $Global-TextAlignJustify;
+    padding-bottom: $HeaderP-Padding;
 }
 
 #header .button{
-    
+    color: $HeaderButton-Color;
+    border: $HeaderButton-Border;
+    font-weight: $Global-FontWeight;
+    font-size:  $HeaderButton-FontSize;
+    background-color: $HeaderButton-BackgroundColor;
+    padding: $HeaderButton-Padding;
+    display: $HeaderButton-Display;
+    margin: $HeaderButton-Margin;
 }
 
 /*** SECTION SLIDERS ***/
 
 #sectionSliders{
-    
+
 }
 
 #sectionSliders .slider{
-    
+
 }
 
 #sectionSliders .slider img{
-    
+
 }
 
 /*** SECTION CARDS ***/
 
 #sectionCards{
-    
+
 }
 
 #sectionCards h2{
-    
+
 }
 
 #sectionCards fa{ // fa = FontAwesonne
-    
+
 }
 
 #sectionCards h3{
-    
+
 }
 
 #sectionCards p{
-    
+
 }
 
 /*** SECTION PROFILES ***/
 
 #sectionProfiles{
-    
+
 }
 
 #sectionProfiles .sectionProfilesImg{
-    
+
 }
 
 #sectionProfiles h3{
-    
+
 }
 
 #sectionProfiles p{
-    
+
 }
 
 #sectionProfiles .sectionProfilesImgGuillements{
-    
+
 }
 
 /*** FOOTER TOP ***/
 
 #footerTop{
-    
+    padding: $FooterTop-Padding;
+    text-align: $Global-TextAlignJustify;
+    color: $FooterTop-Color;
+    background-color: $FooterTop-BackgroundColor;
+    border-bottom: $FooterTop-Border;
 }
 
 #footerTop h3{
-    
+
 }
 
 #footerTop p{
-    
+
 }
 
 /*** FOOTER BOTTOM ***/
 
 #footerBottom{
-    
+    color: $FooterBottom-Color;
+    background-color: $FooterBottom-BackgroundColor;
+    padding: $FooterBottom-Padding;
 }
 
 #footerBottom .footerBottomBorder{
-    
+
 }
 
 #footerBottom p{
-    
+
 }
 
 #footerBottom .footerBottomLogoReseaux{
-    
+
 }
