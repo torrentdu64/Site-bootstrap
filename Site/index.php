@@ -20,15 +20,21 @@ and open the template in the editor.
 
 
       <div id="header">
-           <div class="container">
+           <div class="container-fluid">
                <div class="row">
+                 <div class="col-lg-6 col-lg-push-3">
             <h1>VOTRE ÉQUIPE PASSE-T-ELLE TROP DE TEMPS SUR LES RAPPORTS DE DÉPENSES ?</h1>
+                 </div>
                </div>
                <div class="row">
+                 <div class="col-lg-8 col-lg-push-2">
             <p>De la saisie des justificatifs jusqu’au remboursement des frais, chaque étape du processus peut être traitée depuis votre smartphone ou tablette. Expense manager simplifie la tâche des employés et des responsables en leur permettant de de gérer les notes de frais lorsqu'ils sont en déplacement.</p>
+                 </div>
                </div>
                <div class="row">
-            <button type="button" class="btn btn-primary btn-lg button">Large button</button>
+                 <div class="col-lg-12">
+            <button type="button" class="button">Large button</button>
+                 </div>
                </div>
            </div>
       </div>
@@ -62,7 +68,7 @@ and open the template in the editor.
 
 
         <div id="sectionCards">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <img src="" alt=""/><h2>CE QUE EXPENSE MANAGER PEU FAIRE POUR VOUS</h2>
                 </div>
@@ -120,9 +126,9 @@ and open the template in the editor.
 
 
         <div id="sectionProfiles">
-          <div class="container">
+          <div class="container-fluid">
               <div class="row">
-         <div class="col-lg-4">
+         <div class="col-lg-4 col-md-4">
           <div class="sectionProfilesLight">
            <!-- IMG -->
            <h3>DAVID LACOURTE</h3>
@@ -134,8 +140,8 @@ and open the template in the editor.
           </div>
            </div>
 
-            <div class="sectionProfilesStrong">
-           <div class="col-lg-4">
+            <div class="secstionProfilesStrong">
+           <div class="col-lg-4 col-md-4">
            <h3>CYNTHIA REINHARDT</h3>
            <p>Manager</p>
 
@@ -144,7 +150,7 @@ and open the template in the editor.
            <div class="sectionProfilesImgGuillements"></div>
           </div>
             </div>
-           <div class="col-lg-4">
+           <div class="col-lg-4 col-md-4">
             <div class="sectionProfilesLight">
            <!-- IMG -->
            <h3>MICKAEL DUPRAT</h3>
