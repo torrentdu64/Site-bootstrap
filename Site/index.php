@@ -19,6 +19,7 @@ and open the template in the editor.
 
 
 
+
       <div id="header">
            <div class="container">
                <div class="row">
@@ -33,38 +34,46 @@ and open the template in the editor.
            </div>
       </div>
 
+	<div id="sectionSliders" class="carousel slide" data-ride="carousel">
+			<div class="slider">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				</ol>
 
-        <div id="sectionSliders">
-            <div class="slider">
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <img class="d-block img-fluid" src="..." alt="First slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block img-fluid" src="..." alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block img-fluid" src="..." alt="Third slide">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
-        </div>
+				<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+                    <img src="images/devices.png" title="koala" class="img-responsive center-block" alt="Devices"/>
+                </div>        
+		
+			<div class="item">
+                    <img src="images/Desktop.png" alt="Desktop">	
+			</div>
+			
+			</div>
+  
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#sectionSliders" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#sectionSliders" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+</div>
+
+		
 
 
         <div id="sectionCards">
             <div class="container">
                 <div class="row">
-                    <img src="" alt=""/><h2>CE QUE EXPENSE MANAGER PEU FAIRE POUR VOUS</h2>
+                    <h2>CE QUE EXPENSE MANAGER PEUT FAIRE POUR VOUS</h2>
                 </div>
             </div>
 
@@ -162,8 +171,7 @@ and open the template in the editor.
 
         <?php include("include/footer.php"); ?>
 
-
-         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   
     </body>
 </html>
