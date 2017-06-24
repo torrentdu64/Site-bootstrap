@@ -65,6 +65,9 @@ and open the template in the editor.
 
 /*** SECTION SLIDERS ***/
 /*** SECTION CARDS ***/
+#sectionCards .row {
+  width: 100%; }
+
 /*** SECTION PROFILES ***/
 /*** FOOTER TOP ***/
 #footerTop {

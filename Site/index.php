@@ -70,7 +70,9 @@ and open the template in the editor.
         <div id="sectionCards">
             <div class="container-fluid">
                 <div class="row">
+                  <div class="col-lg-6 col-lg-push-3">
                     <img src="" alt=""/><h2>CE QUE EXPENSE MANAGER PEU FAIRE POUR VOUS</h2>
+                  </div>
                 </div>
             </div>
 
