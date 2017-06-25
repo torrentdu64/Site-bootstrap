@@ -7,13 +7,16 @@ and open the template in the editor.
   <head>
     <title>Expense Manager</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
     <link href="css/desktop.css" rel="stylesheet" type="text/css"/>
     <link href="css/mobile.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <?php include("include/nav.php"); ?>
+
+
     <div id="header">
       <div class="container-fluid">
         <div class="row">
