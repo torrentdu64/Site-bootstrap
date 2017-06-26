@@ -183,13 +183,13 @@ $FooterBottom-FontSize: 18px;
    color: #fff;}
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
- background-color: #3C5F6E !important;}
+ background-color: $Nav-BackgroundColor !important;}
 
 .navbar-default .navbar-nav .dropdown-toggle{
-  background-color: #3C5F6E !important;}
+  background-color: $Nav-BackgroundColor !important;}
 
 .navbar-default .navbar-nav .dropdown-menu{
-  background-color: #3C5F6E !important;}
+  background-color: $Nav-BackgroundColor !important;}
 
 .navbar-default .navbar-nav .dropdown-menu li{
   border-right: inherit;}
@@ -198,7 +198,7 @@ $FooterBottom-FontSize: 18px;
   width: 100%;
   background-color: #EC4E20 ;
   height: 95px;
-  @include nav-border;}
+  @include nav-border($Nav-BackgroundColor);}
 
 .navbar-nav{
   margin-left: 10%;
@@ -207,6 +207,9 @@ $FooterBottom-FontSize: 18px;
 
 #li-end-border{
     border-right: none !important;}
+.dropdown-menu > li{
+    border-right:none !important;
+    }
 #nav{
     width: $Global-Width;
     height: $Nav-Height;
@@ -222,7 +225,7 @@ $FooterBottom-FontSize: 18px;
 #nav ul > li {
   color: white;
   width:  20%;
-  @include mix-nav-ul-li;
+  @include mix-nav-ul-li($Global-TextAlignCenter);
 }
 
   #nav ul > li > a{
@@ -237,6 +240,14 @@ $FooterBottom-FontSize: 18px;
     background-color: $Nav-BackgroundColor!important;
     height: 75px;
  }
+.logo-position-triangle {
+    display: block;
+    margin-left: -8%;
+    margin-top: -8%;
+}
+.logo-position-em{
+  margin-top: -70%;
+}
 /*** HEADER ***/
 
 #header{
