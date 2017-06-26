@@ -5,7 +5,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-<<<<<<< HEAD
+
     <head>
         <title>Expense Manager</title>
         <meta charset="UTF-8">
@@ -17,7 +17,7 @@ and open the template in the editor.
     <body>
 
 
-=======
+
   <head>
     <title>Expense Manager</title>
     <meta charset="UTF-8">
@@ -28,7 +28,7 @@ and open the template in the editor.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
->>>>>>> 44681e180caf127056b356f55f478c6429ce435b
+
     <?php include("include/nav.php"); ?>
 
 
@@ -49,7 +49,7 @@ and open the template in the editor.
             <button type="button" class="button">Large button</button>
           </div>
         </div>
-<<<<<<< HEAD
+
 
         <?php include("include/nav.php"); ?>
 
@@ -237,7 +237,7 @@ and open the template in the editor.
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   
 
     </body>
-=======
+
       </div>
     </div>
     <div id="sectionSliders">
@@ -359,5 +359,5 @@ and open the template in the editor.
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   </body>
->>>>>>> 44681e180caf127056b356f55f478c6429ce435b
+
 </html>
