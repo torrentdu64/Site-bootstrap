@@ -55,7 +55,7 @@ and open the template in the editor.
                     </div>
 
                     <div class="item">
-                        <div class="carousel-inner-img2"><img src="images/Desktop.png" title="Gestionnaire des frais" class="img-responsive center-block" alt="img_desktop_gestionnaire_des_frais"></div>
+                        <div class="carouselInnerImg2"><img src="images/Desktop.png" title="Gestionnaire des frais" class="img-responsive center-block" alt="img_desktop_gestionnaire_des_frais"></div>
                     </div>
 
                 </div>
@@ -84,26 +84,30 @@ and open the template in the editor.
             </div>
 
             <div class="row center-block">
-                <div class="col-lg-4 col-sm-4">
+                <div class="col-lg-4 col-sm-4">       
                 <div class="imagehautDroite"><img src="images/biseau-h-d-bleu.png" alt=""/></div>
                     <div class="tabTop-1">
                         <h3 class="text-center"><i class="fa fa-refresh fa-2x"></i>Automatisez l’enregistrement des dépenses</h3>
-                        <p class="text-center ">Transformez les reçus dans les entrées de dépenses automatiquement. Regroupez-les et soumettez un rapport de dépenses en ligne en un seul clic</p>
+                        <p class="text-justify ">Transformez les reçus dans les entrées de dépenses automatiquement. Regroupez-les et soumettez un rapport de dépenses en ligne en un seul clic</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-4">
+                   <div class="mobileTabMarginBottom"> 
                     <div class="tabTop-2">
                         <h3 class="text-center"><i class="fa fa-credit-card fa-2x"></i>Importer des transactions par carte.</h3>
-                        <p class="text-center">Capturez les opérations de débit et de carte de crédit, puis transformez-les en entrées de frais.</p>
+                        <p class="text-justify">Capturez les opérations de débit et de carte de crédit, puis transformez-les en entrées de frais.</p>
                     </div>
                     <div class="imagehautDroite"><img src="images/biseau-b-g-bleu.png" alt=""/></div>
                 </div>
+                </div>
                 <div class="col-lg-4 col-sm-4">
-                     <div class="imagehautDroite"><img src="images/biseau-h-g-bleu.png" alt=""/></div>
+                     <div class="mobileTabMarginTop">   
+                     <div class="imagehautDroite"><img src="images/biseau-h-g-bleu.png" alt=""/></div>       
                     <div class="tabTop-3">
                         <img class="fa" alt=""/>
                         <h3 class="text-center"><i class="fa fa-file fa-2x"></i>Envoyer des rapports de dépenses sur la route.</h3>
-                        <p class="text-center">Enregistrez les dépenses où que vous soyez et soumettez un rapport complet à l’aide de vtre smartphone.</p>
+                        <p class="text-justify">Enregistrez les dépenses où que vous soyez et soumettez un rapport complet à l’aide de vtre smartphone.</p>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -114,22 +118,26 @@ and open the template in the editor.
                      <div class="imagehautDroite"><img src="images/biseau-h-g-bleu.png" alt=""/></div>
                     <div class="tabBottom-1">
                         <h3 class=text-center><i class="fa fa-eur fa-2x"></i>Contrôlez vos dépenses.</h3>
-                        <p class=text-center>Plus de confusion concernant les dépenses autorisé ou les limites de dépenses. Regroupez-les et soumettez un rapport de dépenses en ligne en un seul clic</p>
+                        <p class=text-justify>Plus de confusion concernant les dépenses autorisé ou les limites de dépenses. Regroupez-les et soumettez un rapport de dépenses en ligne en un seul clic</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-4">
+                    <div class="mobileTabMarginTop">
                      <div class="imagehautDroite"><img src="images/biseau-h-d-bleu.png" alt=""/></div>
                     <div class="tabBottom-2">
                         <h3 class="text-center"><i class="fa fa-eur fa-2x"></i>Simplifiez le processus d’approbation.</h3>
-                        <p class="text-center">Rendez la vie facile avec des approbations et des rappels instantanés pour les rapports de dépenses en attente</p>
+                        <p class="text-justify">Rendez la vie facile avec des approbations et des rappels instantanés pour les rapports de dépenses en attente</p>
                     </div>
+                    </div>    
                 </div>
                 <div class="col-lg-4 col-sm-4">
+                    <div class="mobileTabMarginTop">
                     <div class="tabBottom-3">
                         <h3 class="text-center"><i class="fa fa-road fa-2x"></i>Envoyer des rapports de dépenses sur la route.</h3>
-                        <p class="text-center">Gérer les dépenses pour rendre votre entreprise plus efficace. Afficher les rapports en fonction de la catégorie de dépenses,des violations des règles et plus encore...</p>
+                        <p class="text-justify">Gérer les dépenses pour rendre votre entreprise plus efficace. Afficher les rapports en fonction de la catégorie de dépenses,des violations des règles et plus encore...</p>
                     </div>
                     <div class="imagehautDroite"><img src="images/biseau-b-g-bleu.png" alt=""/></div>
+                    </div>
                 </div>
             </div>
         </div>
