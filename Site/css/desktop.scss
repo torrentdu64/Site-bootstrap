@@ -100,10 +100,12 @@ $sectionCards-PaddingBottomTabBottomH3:10px;
 $sectionCards-H3Color:#fff;
 $sectionCards-H3FontSize:20px;
 
+$sectionCards-RowSeparator:50px;
+$sectionCards-PaddingLeftPaddingRight: 10px;
 
 
 /*** SECTION PROFILES ***/
-$sectionCards-RowSeparator:50px;
+
 
 $sectionProfiles-BckColor:#1B464E;
 $sectionProfiles-MarginTop:0%;
@@ -191,7 +193,7 @@ $FooterBottom-FontSize: 18px;
   border-right-color: #EC4E20;
   border-left-color: #EC4E20;
   border-bottom-color: #fff;
-  border-bottom-width: medium;
+  border-bottom: 3px solid white;
   border-radius: 0;}
 
 .navbar-nav{
@@ -204,7 +206,6 @@ $FooterBottom-FontSize: 18px;
 #nav{
     width: $Global-Width;
     height: $Nav-Height;
-    position: fixed;
     z-index: 1;
 }
 #nav ul > li {
@@ -233,7 +234,7 @@ $FooterBottom-FontSize: 18px;
     width: $Global-Width;
     background-color: $Header-BackgroundColor;
     padding: $Header-Padding;
-    padding-top: 90px;
+    padding-top: 50px;
 }
 
 #header h1{
@@ -343,7 +344,6 @@ background-color:$sectionCards-BckColor;
 
 #sectionCards p{
 font-size:$sectionCards-PFontSize;
-
 }
 
 
@@ -352,7 +352,8 @@ font-size:$sectionCards-PFontSize;
     background-color:$sectionCards-TabBckColor;
     padding-bottom:$sectionCards-TabTop1PaddingBottom;
     padding-top:$sectionCards-TabTop1PaddingTop;
-
+    padding-left: $sectionProfiles-PaddingLeftPaddingRight;
+    padding-right: $sectionCards-PaddingLeftPaddingRight;
 }
 
 
@@ -368,6 +369,8 @@ width:$sectionCards-ImageHDWidth;
      background-color:$sectionCards-TabBckColor;
     padding-bottom:$sectionCards-TabTop2PaddingBottom;
     margin-top:$sectionCards-TabTop2Margin-Top;
+    padding-left: $sectionProfiles-PaddingLeftPaddingRight;
+    padding-right: $sectionCards-PaddingLeftPaddingRight;
 }
 
 
@@ -378,8 +381,10 @@ width:$sectionCards-ImageHDWidth;
 
 
 #sectionCards .tabTop-3{
-   background-color:$sectionCards-TabBckColor;
+    background-color:$sectionCards-TabBckColor;
     padding-bottom:$sectionCards-TabTop3PaddingBottomH3;
+    padding-left: $sectionProfiles-PaddingLeftPaddingRight;
+    padding-right: $sectionCards-PaddingLeftPaddingRight;
 }
 
 
@@ -393,7 +398,8 @@ width:$sectionCards-ImageHDWidth;
 #sectionCards .tabBottom-1{
     background-color: $sectionCards-TabBckColor;
     padding-bottom:$sectionCards-PaddingBottomTabBottom1;
-
+    padding-left: $sectionProfiles-PaddingLeftPaddingRight;
+    padding-right: $sectionCards-PaddingLeftPaddingRight;
 }
 
 
@@ -407,12 +413,16 @@ width:$sectionCards-ImageHDWidth;
     background-color:$sectionCards-TabBckColor;
     padding-bottom:$sectionCards-PaddingBottomTab2Bottom;
     padding-top:$sectionCards-PaddingTopTab2;
+    padding-left: $sectionProfiles-PaddingLeftPaddingRight;
+    padding-right: $sectionCards-PaddingLeftPaddingRight;
 }
 
 
 #sectionCards .tabBottom-3{
     background-color:$sectionCards-TabBckColor;
     padding-bottom:$sectionCards-PaddingBottomTabBottomH3;
+    padding-left: $sectionProfiles-PaddingLeftPaddingRight;
+    padding-right: $sectionCards-PaddingLeftPaddingRight;
 }
 
 
@@ -481,6 +491,8 @@ padding:$sectionProfiles-PaddingTopPaddingBottom  $sectionProfiles-PaddingLeftPa
     color:$sectionProfiles-sectionProfilesLightColorPandH3;
     font-size:$sectionProfiles-sectionProfilesLightANDprofilesStrongFontSizeP;
     padding-top:$sectionProfiles-PaddingTopP;
+    padding-right: $sectionProfiles-PaddingLeftPaddingRight;
+    padding-left: $sectionProfiles-PaddingLeftPaddingRight;
 }
 
 
@@ -508,7 +520,8 @@ padding:$sectionProfiles-PaddingTopPaddingBottom  $sectionProfiles-PaddingLeftPa
 #sectionProfiles .secstionProfilesStrong p{
     font-size:$sectionProfiles-sectionProfilesLightANDprofilesStrongFontSizeP;
     padding-top:$sectionProfiles-PaddingTopP;
-
+    padding-right: $sectionProfiles-PaddingLeftPaddingRight;
+    padding-left: $sectionProfiles-PaddingLeftPaddingRight;
 }
 
 
