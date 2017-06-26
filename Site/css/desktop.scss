@@ -26,11 +26,11 @@ $Global-FontWeight: bold;
 
 /*** NAV ***/
 
-$nav-Height: 50px;
-$nav-Border: 2px solid white;
+$Nav-Height: 50px;
+$Nav-Border: 2px solid white;
 
-$nav-FontSize: 2em;
-$nav-Color: white;
+$Nav-FontSize: 2em;
+$Nav-Color: #3C5F6E;
 
 /*** HEADER ***/
 
@@ -196,7 +196,8 @@ $FooterBottom-Padding: 10px;
     border-right: none !important;}
 #nav{
     width: $Global-Width;
-    height: $nav-Height;
+    height: $Nav-Height;
+    color: $Nav-Color;
 }
 #nav ul > li {
   color: white;
@@ -205,6 +206,7 @@ $FooterBottom-Padding: 10px;
   width:  20%;
   border-right: 2px solid #fff;
   line-height: 40px;}
+
 #nav ul > li > a:hover{
   color: #fff;
   text-decoration: underline;}
