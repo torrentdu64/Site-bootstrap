@@ -164,8 +164,8 @@ and open the template in the editor.
   background-color: #44ADC2;
   padding-bottom: 20px;
   padding-top: 10px;
-  padding-left: 5px;
-  padding-right: 10px; }
+  padding-left: 15px;
+  padding-right: 15px; }
 
 #sectionCards .imagehautDroite img {
   width: 100%;
@@ -175,8 +175,8 @@ and open the template in the editor.
   background-color: #44ADC2;
   padding-bottom: 10px;
   margin-top: 20px;
-  padding-left: 5px;
-  padding-right: 10px; }
+  padding-left: 15px;
+  padding-right: 15px; }
 
 #sectionCards .tabTop-2 h3 {
   padding-top: 35px; }
@@ -184,8 +184,8 @@ and open the template in the editor.
 #sectionCards .tabTop-3 {
   background-color: #44ADC2;
   padding-bottom: 20px;
-  padding-left: 5px;
-  padding-right: 10px; }
+  padding-left: 15px;
+  padding-right: 15px; }
 
 #sectionCards .rowSeparator {
   margin-top: 50px; }
@@ -193,8 +193,8 @@ and open the template in the editor.
 #sectionCards .tabBottom-1 {
   background-color: #44ADC2;
   padding-bottom: 20px;
-  padding-left: 5px;
-  padding-right: 10px; }
+  padding-left: 15px;
+  padding-right: 15px; }
 
 #sectionCards .tabBottom-1 h3 {
   padding-top: 20px; }
@@ -203,14 +203,14 @@ and open the template in the editor.
   background-color: #44ADC2;
   padding-bottom: 45px;
   padding-top: 20px;
-  padding-left: 5px;
-  padding-right: 10px; }
+  padding-left: 15px;
+  padding-right: 15px; }
 
 #sectionCards .tabBottom-3 {
   background-color: #44ADC2;
   padding-bottom: 10px;
-  padding-left: 5px;
-  padding-right: 10px; }
+  padding-left: 15px;
+  padding-right: 15px; }
 
 #sectionCards .row {
   width: 100%; }

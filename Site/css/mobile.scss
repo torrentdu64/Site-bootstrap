@@ -1,1 +1,96 @@
 // Fichier destiné au CSS responsive mobile et à ses media queries
+
+
+@media screen and (max-width: 768px) and (min-width: 480px){
+    
+    /*** SECTION CARDS ***/
+    $SectionCards-H2FontSize:20px;
+    
+    $MobileTab-MarginBottom:20px;
+    $MobileTab-MarginTop:20px;
+   
+    
+    
+    #sectionCards h2{
+        font-size:$SectionCards-H2FontSize;
+    }
+
+    #sectionCards .mobileTabMarginBottom{
+        margin-bottom:$MobileTab-MarginBottom;
+    }
+    
+     #sectionCards .mobileTabMarginTop{
+        margin-top:$MobileTab-MarginTop;
+    }
+    
+    #sectionSliders .carouselInnerImg1 {
+  position: static;
+    
+}
+    
+    
+    
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px){
+    /*** SECTION CARDS ***/
+    $SectionCards-H2FontSize:15px;
+    
+     
+    /*** SECTION SLIDERS ***/
+   $SectionSliders-Height:280px;  
+    
+      /*** SECTION CARDS ***/
+    
+    $SectionCards-SectionProfilesStrongHeight:550px;
+    $SectionCards-carouselInnerImg1PaddingTop:50px;
+    
+    $SectionCards-H2FontWeight:bold;
+    
+    /*** SECTION PROFILES ***/
+    
+    $MobileTab-MarginBottom:20px;
+    $MobileTab-MarginTop:20px;
+    
+  
+     
+    #sectionCards h2{
+        font-size:$SectionCards-H2FontSize;
+        font-weight: $SectionCards-H2FontWeight;
+    }
+
+    #sectionCards .mobileTabMarginBottom{
+        margin-bottom:$MobileTab-MarginBottom;
+    }
+    
+     #sectionCards .mobileTabMarginTop{
+        margin-top:$MobileTab-MarginTop;
+    }
+    
+    
+    #sectionSliders .carouselInnerImg1 {
+  position: static;
+        padding-top:$SectionCards-carouselInnerImg1PaddingTop;
+    
+}
+    
+    
+     #sectionSliders.carouselInnerImg2{
+        padding-top:10px;
+    }
+    
+    
+    #sectionProfiles .secstionProfilesStrong{
+        height:$SectionCards-SectionProfilesStrongHeight!important;
+    }
+    
+
+    #sectionSliders{
+        height:$SectionSliders-Height;
+    }
+  
+}
+
+
+
+    

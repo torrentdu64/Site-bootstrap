@@ -101,7 +101,7 @@ $sectionCards-H3Color:#fff;
 $sectionCards-H3FontSize:20px;
 
 $sectionCards-RowSeparator:50px;
-$sectionCards-PaddingLeftPaddingRight: 10px;
+$sectionCards-PaddingLeftPaddingRight: 15px;
 
 
 /*** SECTION PROFILES ***/
@@ -372,7 +372,7 @@ font-size:$sectionCards-PFontSize;
     background-color:$sectionCards-TabBckColor;
     padding-bottom:$sectionCards-TabTop1PaddingBottom;
     padding-top:$sectionCards-TabTop1PaddingTop;
-    padding-left: $sectionProfiles-PaddingLeftPaddingRight;
+    padding-left: $sectionCards-PaddingLeftPaddingRight;
     padding-right: $sectionCards-PaddingLeftPaddingRight;
 }
 
@@ -389,7 +389,7 @@ width:$sectionCards-ImageHDWidth;
      background-color:$sectionCards-TabBckColor;
     padding-bottom:$sectionCards-TabTop2PaddingBottom;
     margin-top:$sectionCards-TabTop2Margin-Top;
-    padding-left: $sectionProfiles-PaddingLeftPaddingRight;
+    padding-left: $sectionCards-PaddingLeftPaddingRight;
     padding-right: $sectionCards-PaddingLeftPaddingRight;
 }
 
@@ -403,7 +403,7 @@ width:$sectionCards-ImageHDWidth;
 #sectionCards .tabTop-3{
     background-color:$sectionCards-TabBckColor;
     padding-bottom:$sectionCards-TabTop3PaddingBottomH3;
-    padding-left: $sectionProfiles-PaddingLeftPaddingRight;
+    padding-left: $sectionCards-PaddingLeftPaddingRight;
     padding-right: $sectionCards-PaddingLeftPaddingRight;
 }
 
@@ -418,7 +418,7 @@ width:$sectionCards-ImageHDWidth;
 #sectionCards .tabBottom-1{
     background-color: $sectionCards-TabBckColor;
     padding-bottom:$sectionCards-PaddingBottomTabBottom1;
-    padding-left: $sectionProfiles-PaddingLeftPaddingRight;
+    padding-left: $sectionCards-PaddingLeftPaddingRight;
     padding-right: $sectionCards-PaddingLeftPaddingRight;
 }
 
@@ -433,7 +433,7 @@ width:$sectionCards-ImageHDWidth;
     background-color:$sectionCards-TabBckColor;
     padding-bottom:$sectionCards-PaddingBottomTab2Bottom;
     padding-top:$sectionCards-PaddingTopTab2;
-    padding-left: $sectionProfiles-PaddingLeftPaddingRight;
+    padding-left: $sectionCards-PaddingLeftPaddingRight;
     padding-right: $sectionCards-PaddingLeftPaddingRight;
 }
 
@@ -441,7 +441,7 @@ width:$sectionCards-ImageHDWidth;
 #sectionCards .tabBottom-3{
     background-color:$sectionCards-TabBckColor;
     padding-bottom:$sectionCards-PaddingBottomTabBottomH3;
-    padding-left: $sectionProfiles-PaddingLeftPaddingRight;
+    padding-left: $sectionCards-PaddingLeftPaddingRight;
     padding-right: $sectionCards-PaddingLeftPaddingRight;
 }
 

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -70,6 +70,36 @@ and open the template in the editor.
           </div>
         </div>
         <div id="sectionSliders" class="carousel slide" data-ride="carousel">
+
+            <div class="slider">
+                <ol class="carousel-indicators">
+                    <li data-target="#sectionSliders" data-slide-to="0" class="active inactive"></li>
+                    <li data-target="#sectionSliders" data-slide-to="1" class="inactive"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="carouselInnerImg1"><img src="images/devices.png" title="Gestionnaire des frais" class="img-responsive center-block" alt="img_devices_gestionnaire_des_frais"/></div>
+                    </div>
+
+                    <div class="item">
+                        <div class="carouselInnerImg2"><img src="images/Desktop.png" title="Gestionnaire des frais" class="img-responsive center-block" alt="img_desktop_gestionnaire_des_frais"></div>
+                    </div>
+
+                </div>
+
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#sectionSliders" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#sectionSliders" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
           <div class="slider">
             <ol class="carousel-indicators">
               <li data-target="#sectionSliders" data-slide-to="0" class="active inactive"></li>
@@ -83,6 +113,7 @@ and open the template in the editor.
               <div class="item">
                 <div class="carousel-inner-img2"><img src="images/Desktop.png" title="Gestionnaire des frais" class="img-responsive center-block" alt="img_desktop_gestionnaire_des_frais"></div>
               </div>
+
             </div>
             <!-- Controls -->
             <a class="left carousel-control" href="#sectionSliders" role="button" data-slide="prev">
@@ -100,6 +131,65 @@ and open the template in the editor.
             <div class="row">
               <h2 class="text-center"><img src="images/flèche.png" alt="fleche" style="margin-right:10px;" />CE QUE EXPENSE MANAGER PEUT FAIRE POUR VOUS</h2>
             </div>
+
+
+            <div class="row center-block">
+                <div class="col-lg-4 col-sm-4">       
+                <div class="imagehautDroite"><img src="images/biseau-h-d-bleu.png" alt=""/></div>
+                    <div class="tabTop-1">
+                        <h3 class="text-center"><i class="fa fa-refresh fa-2x"></i>Automatisez l’enregistrement des dépenses</h3>
+                        <p class="text-justify ">Transformez les reçus dans les entrées de dépenses automatiquement. Regroupez-les et soumettez un rapport de dépenses en ligne en un seul clic</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                   <div class="mobileTabMarginBottom"> 
+                    <div class="tabTop-2">
+                        <h3 class="text-center"><i class="fa fa-credit-card fa-2x"></i>Importer des transactions par carte.</h3>
+                        <p class="text-justify">Capturez les opérations de débit et de carte de crédit, puis transformez-les en entrées de frais.</p>
+                    </div>
+                    <div class="imagehautDroite"><img src="images/biseau-b-g-bleu.png" alt=""/></div>
+                </div>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                     <div class="mobileTabMarginTop">   
+                     <div class="imagehautDroite"><img src="images/biseau-h-g-bleu.png" alt=""/></div>       
+                    <div class="tabTop-3">
+                        <img class="fa" alt=""/>
+                        <h3 class="text-center"><i class="fa fa-file fa-2x"></i>Envoyer des rapports de dépenses sur la route.</h3>
+                        <p class="text-justify">Enregistrez les dépenses où que vous soyez et soumettez un rapport complet à l’aide de vtre smartphone.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row center-block rowSeparator">
+                <div class="col-lg-4 col-sm-4">
+                     <div class="imagehautDroite"><img src="images/biseau-h-g-bleu.png" alt=""/></div>
+                    <div class="tabBottom-1">
+                        <h3 class=text-center><i class="fa fa-eur fa-2x"></i>Contrôlez vos dépenses.</h3>
+                        <p class=text-justify>Plus de confusion concernant les dépenses autorisé ou les limites de dépenses. Regroupez-les et soumettez un rapport de dépenses en ligne en un seul clic</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <div class="mobileTabMarginTop">
+                     <div class="imagehautDroite"><img src="images/biseau-h-d-bleu.png" alt=""/></div>
+                    <div class="tabBottom-2">
+                        <h3 class="text-center"><i class="fa fa-eur fa-2x"></i>Simplifiez le processus d’approbation.</h3>
+                        <p class="text-justify">Rendez la vie facile avec des approbations et des rappels instantanés pour les rapports de dépenses en attente</p>
+                    </div>
+                    </div>    
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <div class="mobileTabMarginTop">
+                    <div class="tabBottom-3">
+                        <h3 class="text-center"><i class="fa fa-road fa-2x"></i>Envoyer des rapports de dépenses sur la route.</h3>
+                        <p class="text-justify">Gérer les dépenses pour rendre votre entreprise plus efficace. Afficher les rapports en fonction de la catégorie de dépenses,des violations des règles et plus encore...</p>
+                    </div>
+                    <div class="imagehautDroite"><img src="images/biseau-b-g-bleu.png" alt=""/></div>
+                    </div>
+                </div>
+
           </div>
           <div class="row center-block">
             <div class="col-lg-4 col-sm-4">
@@ -139,6 +229,7 @@ and open the template in the editor.
                 <h3 class="text-center"><i class="fa fa-eur fa-2x"></i>Simplifiez le processus d’approbation.</h3>
                 <p class="text-center">Rendez la vie facile avec des approbations et des rappels instantanés pour les rapports de dépenses en attente</p>
               </div>
+
             </div>
             <div class="col-lg-4 col-sm-4">
               <div class="tabBottom-3">
