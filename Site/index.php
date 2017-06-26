@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -138,7 +138,7 @@ and open the template in the editor.
 
         <div id="sectionProfiles">
             <div class="container-fluid offset">
-                <div class="row">
+                <div class="row center-block">
                     <div class="col-lg-4 col-md-4 offset-0">
                         <div class="sectionProfilesLight">
                             <div class="imgProfiles"><img src="images/commercial.png" alt="Gestionnaire_des_frais_Commercial" class="center-block"/></div>
