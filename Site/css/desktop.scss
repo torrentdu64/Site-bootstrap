@@ -212,21 +212,26 @@ $FooterBottom-FontSize: 18px;
     height: $Nav-Height;
     z-index: 1;
 }
+@mixin mix-nav-ul-li($Global-TextAlignCenter){
+  text-align: $Global-TextAlignCenter;
+  font-size: 18px;
+  border-right: 2px solid #fff;
+  line-height: 40px;
+}
+
 #nav ul > li {
   color: white;
-  @mixin text-align: $Global-TextAlignCenter;
-  @mixin font-size: 18px;
   width:  20%;
-  @mixin border-right: 2px solid #fff;
-  @mixin line-height: 40px;}
+  @include mix-nav-ul-li;
+}
 
   #nav ul > li > a{
-   @mixin color: #fff
+    color: #fff
 }
 
 #nav ul > li > a:hover{
-  @mixin color: #fff;
-  @mixin text-decoration: none;}
+   color: #fff;
+   text-decoration: none;}
 
 .navbar-default{
     background-color: $Nav-BackgroundColor!important;
