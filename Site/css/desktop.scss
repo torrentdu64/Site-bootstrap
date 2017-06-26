@@ -30,7 +30,7 @@ $Nav-Height: 50px;
 $Nav-Border: 2px solid white;
 
 $Nav-FontSize: 2em;
-$Nav-Color: #3C5F6E;
+$Nav-BackgroundColor: #3C5F6E;
 
 /*** HEADER ***/
 
@@ -112,7 +112,7 @@ $sectionProfiles-secstionProfilesStrongBckColor: #44adc2;
 $sectionProfiles-secstionProfilesStrongHeight:500px;
 
 
-$sectionProfiles-LightgBckColor: #ccc;
+$sectionProfiles-LightgBckColor: white;
 $sectionProfiles-LightgHeight:450px;
 $sectionProfiles-PaddingTopPaddingBottom:0px;
 $sectionProfiles-PaddingLeftPaddingRight:5px;
@@ -145,6 +145,7 @@ $FooterTop-Padding: 10px;
 $FooterTop-Border: 3px solid white;
 $FooterTop-Padding: 10px;
 $FooterTop-BackgroundColor: #133036;
+$FooterTop-FontSize: 18px;
 
 /*** FOOTER BOTTOM ***/
 
@@ -152,9 +153,7 @@ $FooterTop-BackgroundColor: #133036;
 $FooterBottom-Color: white;
 $FooterBottom-BackgroundColor: #133036;
 $FooterBottom-Padding: 10px;
-
-
-
+$FooterBottom-FontSize: 18px;
 
 
 #html{
@@ -173,8 +172,16 @@ $FooterBottom-Padding: 10px;
   color: #fff;}
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: #fff;
-  background-color: #EC4E20 ;}
+  background-color: #3C5F6E !important;}
+
+.navbar-default .navbar-nav .dropdown-toggle{
+  background-color: #3C5F6E !important;}
+
+.navbar-default .navbar-nav .dropdown-menu{
+  background-color: #3C5F6E !important;}
+
+.navbar-default .navbar-nav .dropdown-menu li{
+  border-right: inherit;}
 
 .navbar-default{
   width: 100%;
@@ -197,7 +204,8 @@ $FooterBottom-Padding: 10px;
 #nav{
     width: $Global-Width;
     height: $Nav-Height;
-    color: $Nav-Color;
+    position: fixed;
+    z-index: 1;
 }
 #nav ul > li {
   color: white;
@@ -207,12 +215,17 @@ $FooterBottom-Padding: 10px;
   border-right: 2px solid #fff;
   line-height: 40px;}
 
+  #nav ul > li > a{
+    color: #fff
+}
+
 #nav ul > li > a:hover{
   color: #fff;
-  text-decoration: underline;}
+  text-decoration: none;}
+
 .navbar-default{
-    background-color: #EC4E20;
-    height: 95px;
+    background-color: $Nav-BackgroundColor!important;
+    height: 75px;
  }
 /*** HEADER ***/
 
@@ -220,6 +233,7 @@ $FooterBottom-Padding: 10px;
     width: $Global-Width;
     background-color: $Header-BackgroundColor;
     padding: $Header-Padding;
+    padding-top: 90px;
 }
 
 #header h1{
@@ -580,7 +594,7 @@ padding:$sectionProfiles-PaddingTopPaddingBottom  $sectionProfiles-PaddingLeftPa
 }
 
 #footerTop p{
-
+    font-size: $FooterTop-FontSize;
 }
 
 /*** FOOTER BOTTOM ***/
@@ -596,7 +610,7 @@ padding:$sectionProfiles-PaddingTopPaddingBottom  $sectionProfiles-PaddingLeftPa
 }
 
 #footerBottom p{
-
+    font-size: $FooterBottom-FontSize;
 }
 
 #footerBottom .footerBottomLogoReseaux{

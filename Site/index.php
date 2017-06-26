@@ -34,7 +34,7 @@ and open the template in the editor.
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <button type="button" class="button">Large button</button>
+            <button type="button" class="button">Demander une demo</button>
           </div>
         </div>
     </div>
@@ -138,7 +138,7 @@ and open the template in the editor.
 
         <div id="sectionProfiles">
             <div class="container-fluid offset">
-                <div class="row">
+                <div class="row center-block">
                     <div class="col-lg-4 col-md-4 offset-0">
                         <div class="sectionProfilesLight">
                             <div class="imgProfiles"><img src="images/commercial.png" alt="Gestionnaire_des_frais_Commercial" class="center-block"/></div>
