@@ -26,11 +26,11 @@ $Global-FontWeight: bold;
 
 /*** NAV ***/
 
-$nav-Height: 50px;
-$nav-Border: 2px solid white;
+$Nav-Height: 50px;
+$Nav-Border: 2px solid white;
 
-$nav-FontSize: 2em;
-$nav-Color: white;
+$Nav-FontSize: 2em;
+$Nav-Color: #3C5F6E;
 
 /*** HEADER ***/
 
@@ -171,9 +171,11 @@ $FooterBottom-Padding: 10px;
 
 .navbar-default .navbar-nav>li>a {
   color: #fff;}
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   color: #fff;
   background-color: #EC4E20 ;}
+
 .navbar-default{
   width: 100%;
   background-color: #EC4E20 ;
@@ -184,15 +186,18 @@ $FooterBottom-Padding: 10px;
   border-bottom-color: #fff;
   border-bottom-width: medium;
   border-radius: 0;}
+
 .navbar-nav{
   margin-left: 10%;
   width: 80%;
   margin-top: 0.5%;}
+
 #li-end-border{
     border-right: none !important;}
 #nav{
     width: $Global-Width;
-    height: $nav-Height;
+    height: $Nav-Height;
+    color: $Nav-Color;
 }
 #nav ul > li {
   color: white;
@@ -201,6 +206,7 @@ $FooterBottom-Padding: 10px;
   width:  20%;
   border-right: 2px solid #fff;
   line-height: 40px;}
+
 #nav ul > li > a:hover{
   color: #fff;
   text-decoration: underline;}
@@ -244,7 +250,7 @@ $FooterBottom-Padding: 10px;
 /*** SECTION SLIDERS ***/
 
 #sectionSliders{
-  
+
 }
 
 
@@ -265,16 +271,16 @@ $FooterBottom-Padding: 10px;
 #sectionSliders .carousel-inner{
     overflow:$sectionSliders-CarouselInnerVisible!important;
         overflow-x:$sectionSliders-CarouselInnerVisible!important;
-            overflow-y:$sectionSliders-CarouselInnerVisible!important; 
+            overflow-y:$sectionSliders-CarouselInnerVisible!important;
     height:$sectionSliders-CarouselInnerHeight;
-    
+
 }
 
 
-    
+
 #sectionSliders .carousel-indicators {
     bottom:$sectionSliders-CarouselIndicatorsBottom!important;
-    
+
 }
 
 
@@ -287,7 +293,7 @@ $FooterBottom-Padding: 10px;
 
 #sectionSliders .carousel-indicators .inactive{
     background-color: $sectionSliders-CarouselIndicatorsInactiveColor!important;
-   
+
 }
 
 
@@ -304,13 +310,13 @@ $FooterBottom-Padding: 10px;
 
 #sectionCards{
 background-color:$sectionCards-BckColor;
- 
+
 }
 
 
 #sectionCards h2{
     margin-bottom:$sectionCards-H2MarginBottom;
-  
+
 }
 
 
@@ -323,7 +329,7 @@ background-color:$sectionCards-BckColor;
 
 #sectionCards p{
 font-size:$sectionCards-PFontSize;
-   
+
 }
 
 
@@ -332,13 +338,13 @@ font-size:$sectionCards-PFontSize;
     background-color:$sectionCards-TabBckColor;
     padding-bottom:$sectionCards-TabTop1PaddingBottom;
     padding-top:$sectionCards-TabTop1PaddingTop;
-   
+
 }
 
 
 
 #sectionCards .imagehautDroite img{
-width:$sectionCards-ImageHDWidth; 
+width:$sectionCards-ImageHDWidth;
     height:$sectionCards-ImageHDHeight;
 }
 
@@ -373,13 +379,13 @@ width:$sectionCards-ImageHDWidth;
 #sectionCards .tabBottom-1{
     background-color: $sectionCards-TabBckColor;
     padding-bottom:$sectionCards-PaddingBottomTabBottom1;
-    
+
 }
 
 
 #sectionCards .tabBottom-1 h3{
     padding-top: $sectionCards-PaddingTopH3;
-    
+
 }
 
 
@@ -388,7 +394,7 @@ width:$sectionCards-ImageHDWidth;
     padding-bottom:$sectionCards-PaddingBottomTab2Bottom;
     padding-top:$sectionCards-PaddingTopTab2;
 }
-    
+
 
 #sectionCards .tabBottom-3{
     background-color:$sectionCards-TabBckColor;
@@ -396,16 +402,13 @@ width:$sectionCards-ImageHDWidth;
 }
 
 
-
-#sectionCards .tabBottom-3 h3{
-padding-top:$sectionCards-PaddingTopTab3;
+#sectionCards .row{
+    width: $Global-Width;
 }
 
 
-
-
-#sectionCards .row{
-    width:100%;
+#sectionCards .tabBottom-3 h3{
+padding-top:$sectionCards-PaddingTopTab3;
 }
 
 
@@ -446,7 +449,7 @@ padding-top:$sectionCards-PaddingTopTab3;
 
 
 #sectionProfiles .sectionProfilesLight{
-    
+
     background-color:$sectionProfiles-LightgBckColor;
     height: $sectionProfiles-LightgHeight;
 padding:$sectionProfiles-PaddingTopPaddingBottom  $sectionProfiles-PaddingLeftPaddingRight
@@ -455,7 +458,7 @@ padding:$sectionProfiles-PaddingTopPaddingBottom  $sectionProfiles-PaddingLeftPa
     bottom:$sectionProfiles-MarginBottom;
     border-radius:$Section-Profiles-BorderRadius;
 
-    
+
 }
 
 
@@ -480,17 +483,17 @@ padding:$sectionProfiles-PaddingTopPaddingBottom  $sectionProfiles-PaddingLeftPa
     background-color:$sectionProfiles-secstionProfilesStrongBckColor;
     height:$sectionProfiles-secstionProfilesStrongHeight;
 padding:$sectionProfiles-PaddingTopPaddingBottom  $sectionProfiles-PaddingLeftPaddingRight
-        $sectionProfiles-PaddingTopPaddingBottom  $sectionProfiles-PaddingLeftPaddingRight; 
+        $sectionProfiles-PaddingTopPaddingBottom  $sectionProfiles-PaddingLeftPaddingRight;
     position:$sectionProfiles-PositionRelative;
     bottom:$sectionProfiles-MarginBottom;
-     border-radius:$Section-Profiles-BorderRadius; 
-       
+     border-radius:$Section-Profiles-BorderRadius;
+
 }
 
 
 #sectionProfiles .secstionProfilesStrong p{
     font-size:$sectionProfiles-sectionProfilesLightANDprofilesStrongFontSizeP;
-    padding-top:$sectionProfiles-PaddingTopP;   
+    padding-top:$sectionProfiles-PaddingTopP;
 
 }
 
@@ -498,7 +501,7 @@ padding:$sectionProfiles-PaddingTopPaddingBottom  $sectionProfiles-PaddingLeftPa
 
 #sectionProfiles .secstionProfilesStrong h3{
     color:$sectionProfiles-sectionProfilesStrongColorH3;
-      
+
 }
 
 
@@ -508,7 +511,7 @@ padding:$sectionProfiles-PaddingTopPaddingBottom  $sectionProfiles-PaddingLeftPa
 
 #sectionProfiles .secstionProfilesStrongColor p{
     color:$sectionProfiles-sectionProfilesStrongColorH3;
-  
+
 }
 
 #sectionProfiles .sectionProfilesImgGuillements{
@@ -520,7 +523,7 @@ padding:$sectionProfiles-PaddingTopPaddingBottom  $sectionProfiles-PaddingLeftPa
  #sectionProfiles .offset{
    margin-left:$sectionProfiles-offsetMarginRight-offsetMarginLeft;
     margin-right:$sectionProfiles-offsetMarginRight-offsetMarginLeft;
-    
+
 }
 
 
