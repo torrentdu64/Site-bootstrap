@@ -9,7 +9,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand logo" href="#">Logo</a>
+        <a class="navbar-brand logo" href="#">
+          <img class="logo-position-triangle" src="images/triangle.png" alt="">
+          <img class="logo-position-em" src="images/logo.png" alt="">
+          </a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
