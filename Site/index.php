@@ -34,7 +34,7 @@ and open the template in the editor.
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <button type="button" class="button">Large button</button>
+            <button type="button" class="button">Demander une demo</button>
           </div>
         </div>
     </div>
@@ -147,7 +147,7 @@ and open the template in the editor.
                                 <p class="text-center">Commercial</p>
 
                                 <div class="sectionProfilesImgGuillements"><img src="images/guillemets-ouvrants-bleu.png"/></div>
-                                <p class="text-center">Il faut à mes collègues moins de cinq minutes pour télécharger les reçus, créer des rapports de dépenses et les soumettre pour approbation.</p>
+                                <p class="text-justify">Il faut à mes collègues moins de cinq minutes pour télécharger les reçus, créer des rapports de dépenses et les soumettre pour approbation.</p>
                                 <div class="sectionProfilesImgGuillements"><img src="images/guillemets-fermants-bleu.png" class="pull-right"/></div>
                             </div>
                         </div>
@@ -162,7 +162,7 @@ and open the template in the editor.
                             <p class="text-center managerColor">Manager</p>
 
                              <div class="sectionProfilesImgGuillements"><img src="images/guillemets-ouvrants-blanc.png"/></div>
-                             <p class="text-center">Avoir un système qui peut contrôler et gérer les rapports, les envoyer pour approbation et suivre cette progression de l’employé à la comptabilité est beaucoup plus facile et plus fiable que l’envoi d’emails et de pièces jointes autour de l’organisation.</p>
+                             <p class="text-justify">Avoir un système qui peut contrôler et gérer les rapports, les envoyer pour approbation et suivre cette progression de l’employé à la comptabilité est beaucoup plus facile et plus fiable que l’envoi d’emails et de pièces jointes autour de l’organisation.</p>
                              <div class="sectionProfilesImgGuillements"><img src="images/guillemets-fermants-blanc.png" class="pull-right"/></div>
                         </div>
                             </div>
@@ -175,7 +175,7 @@ and open the template in the editor.
                             <p class="text-center">Comptable</p>
 
                              <div class="sectionProfilesImgGuillements"><img src="images/guillemets-ouvrants-bleu.png" /></div>
-                             <p class="text-center">Il faut à mes collègues moins de cinq minutes pour télécharger les reçus, créer des rapports de dépenses et les soumettre pour approbation.</p>
+                             <p class="text-justify">Il faut à mes collègues moins de cinq minutes pour télécharger les reçus, créer des rapports de dépenses et les soumettre pour approbation.</p>
                              <div class="sectionProfilesImgGuillements"><img src="images/guillemets-fermants-bleu.png" class="pull-right"/></div>
                         </div>
                         </div>
