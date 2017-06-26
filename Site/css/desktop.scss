@@ -169,18 +169,27 @@ $FooterBottom-FontSize: 18px;
 }
 
 /*** NAV ***/
+@mixin nav-border($Nav-BackgroundColor) {
+  border-top-color: $Nav-BackgroundColor;
+  border-right-color: $Nav-BackgroundColor;
+  border-left-color: $Nav-BackgroundColor;
+  border-bottom-color: #fff;
+  border-bottom: 3px solid white;
+  border-radius: 0;
+}
+
 
 .navbar-default .navbar-nav>li>a {
-  color: #fff;}
+   color: #fff;}
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  background-color: #3C5F6E !important;}
+ background-color: $Nav-BackgroundColor !important;}
 
 .navbar-default .navbar-nav .dropdown-toggle{
-  background-color: #3C5F6E !important;}
+  background-color: $Nav-BackgroundColor !important;}
 
 .navbar-default .navbar-nav .dropdown-menu{
-  background-color: #3C5F6E !important;}
+  background-color: $Nav-BackgroundColor !important;}
 
 .navbar-default .navbar-nav .dropdown-menu li{
   border-right: inherit;}
@@ -189,12 +198,7 @@ $FooterBottom-FontSize: 18px;
   width: 100%;
   background-color: #EC4E20 ;
   height: 95px;
-  border-top-color: #EC4E20;
-  border-right-color: #EC4E20;
-  border-left-color: #EC4E20;
-  border-bottom-color: #fff;
-  border-bottom: 3px solid white;
-  border-radius: 0;}
+  @include nav-border($Nav-BackgroundColor);}
 
 .navbar-nav{
   margin-left: 10%;
@@ -203,31 +207,47 @@ $FooterBottom-FontSize: 18px;
 
 #li-end-border{
     border-right: none !important;}
+.dropdown-menu > li{
+    border-right:none !important;
+    }
 #nav{
     width: $Global-Width;
     height: $Nav-Height;
     z-index: 1;
 }
-#nav ul > li {
-  color: white;
+@mixin mix-nav-ul-li($Global-TextAlignCenter){
   text-align: $Global-TextAlignCenter;
   font-size: 18px;
-  width:  20%;
   border-right: 2px solid #fff;
-  line-height: 40px;}
+  line-height: 40px;
+}
+
+#nav ul > li {
+  color: white;
+  width:  20%;
+  @include mix-nav-ul-li($Global-TextAlignCenter);
+}
 
   #nav ul > li > a{
     color: #fff
 }
 
 #nav ul > li > a:hover{
-  color: #fff;
-  text-decoration: none;}
+   color: #fff;
+   text-decoration: none;}
 
 .navbar-default{
     background-color: $Nav-BackgroundColor!important;
     height: 75px;
  }
+.logo-position-triangle {
+    display: block;
+    margin-left: -8%;
+    margin-top: -8%;
+}
+.logo-position-em{
+  margin-top: -70%;
+}
 /*** HEADER ***/
 
 #header{
