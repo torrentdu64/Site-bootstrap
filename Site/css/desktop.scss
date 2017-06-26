@@ -55,9 +55,88 @@ $HeaderButton-Display: block;
 
 /*** SECTION SLIDERS ***/
 
+$sectionSliders-PositionRelative-CarouselImg1: relative;
+$sectionSliders-CarouselImg1-HorsCadre:30px;
+
+$sectionSliders-CarouselInnerVisible:visible;
+$sectionSliders-CarouselInnerHeight:320px;
+
+
+$sectionSliders-CarouselIndicatorActiveColor:#BCF5A9;
+$sectionSliders-CarouselIndicatorsInactiveColor:#BCF5A9;
+$sectionSliders-CarouselIndicatorActiveWidth:20px;
+$sectionSliders-CarouselIndicatorActiveHeight:20px;
+
+$sectionSliders-CarouselIndicatorsBottom:-10px;
+
+
 /*** SECTION CARDS ***/
+$sectionCards-PFontSize:18px;
+
+$sectionCards-BckColor:#F5F5F5;
+
+$sectionCards-TabTopTouchImg:0px;
+
+$sectionCards-TabBckColor:#44ADC2;
+
+$sectionCards-PaddingBottomTabBottom1:20px;
+$sectionCards-TabTop1PaddingBottom:20px;
+$sectionCards-TabTop1PaddingTop:10px;
+
+$sectionCards-ImageHDWidth:100%;
+$sectionCards-ImageHDHeight:40px;
+
+$sectionCards-TabTop2PaddingBottom:10px;
+$sectionCards-TabTop2Margin-Top:20px;
+$sectionCards-TabTop2PaddingTop:35px;
+$sectionCards-PaddingBottomTab2Bottom:45px;
+$sectionCards-PaddingTopTab2:20px;
+$sectionCards-H2MarginBottom:5%;
+
+$sectionCards-TabTop3PaddingBottomH3:20px;
+$sectionCards-PaddingTopH3:20px;
+$sectionCards-PaddingTopTab3:30px;
+$sectionCards-PaddingBottomTabBottomH3:10px;
+$sectionCards-H3Color:#fff;
+$sectionCards-H3FontSize:20px;
+
+
 
 /*** SECTION PROFILES ***/
+$sectionCards-RowSeparator:50px;
+
+$sectionProfiles-BckColor:#1B464E;
+$sectionProfiles-MarginTop:0%;
+
+$sectionProfiles-secstionProfilesStrongBckColor: #44adc2;
+$sectionProfiles-secstionProfilesStrongHeight:500px;
+
+
+$sectionProfiles-LightgBckColor: #ccc;
+$sectionProfiles-LightgHeight:450px;
+$sectionProfiles-PaddingTopPaddingBottom:0px;
+$sectionProfiles-PaddingLeftPaddingRight:5px;
+$sectionProfiles-PositionRelative:relative;
+$sectionProfiles-MarginBottom:100px;
+
+$Section-Profiles-BorderRadius:5px;
+
+$sectionProfiles-sectionProfilesLightColorPandH3:#54b4c7;
+$sectionProfiles-sectionProfilesLightANDprofilesStrongFontSizeP:18px;
+$sectionProfiles-sectionProfilesLightANDstrongH3Font-Size:24px;
+$sectionProfiles-PaddingTopP:10px;
+
+$sectionProfiles-sectionProfilesStrongColorH3:#fff;
+
+$sectionProfiles-offsetMarginRight-offsetMarginLeft:20px!important;
+$sectionProfiles-offsetMarginRight-offsetMarginLeft:20px!important;
+
+$sectionProfiles-offsetPaddingRight-offsetPaddingLeft:0!important;
+
+$sectionProfiles-Remonter:-50px;
+
+$sectionProfiles-ImageRemonter:60px;
+$sectionProfiles-ImageRelative:relative;
 
 /*** FOOTER TOP ***/
 
@@ -73,6 +152,9 @@ $FooterTop-BackgroundColor: #133036;
 $FooterBottom-Color: white;
 $FooterBottom-BackgroundColor: #133036;
 $FooterBottom-Padding: 10px;
+
+
+
 
 
 #html{
@@ -139,22 +221,170 @@ $FooterBottom-Padding: 10px;
 /*** SECTION SLIDERS ***/
 
 #sectionSliders{
-   
+  
 }
+
+
 
 #sectionSliders .slider{
 
 }
 
+
+
+#sectionSliders .carouselInnerImg1 {
+    position:$sectionSliders-PositionRelative-CarouselImg1;
+    bottom:$sectionSliders-CarouselImg1-HorsCadre;
+}
+
+
+
+#sectionSliders .carousel-inner{
+    overflow:$sectionSliders-CarouselInnerVisible!important;
+        overflow-x:$sectionSliders-CarouselInnerVisible!important;
+            overflow-y:$sectionSliders-CarouselInnerVisible!important; 
+    height:$sectionSliders-CarouselInnerHeight;
+    
+}
+
+
+    
+#sectionSliders .carousel-indicators {
+    bottom:$sectionSliders-CarouselIndicatorsBottom!important;
+    
+}
+
+
+#sectionSliders .carousel-indicators .active{
+    background-color: $sectionSliders-CarouselIndicatorActiveColor!important;
+    width:$sectionSliders-CarouselIndicatorActiveWidth!important;
+    height:$sectionSliders-CarouselIndicatorActiveHeight!important;
+}
+
+
+#sectionSliders .carousel-indicators .inactive{
+    background-color: $sectionSliders-CarouselIndicatorsInactiveColor!important;
+   
+}
+
+
+
 #sectionSliders .slider img{
 
 }
 
+
+
 /*** SECTION CARDS ***/
 
-#sectionCards{
 
+
+#sectionCards{
+background-color:$sectionCards-BckColor;
+ 
 }
+
+
+#sectionCards h2{
+    margin-bottom:$sectionCards-H2MarginBottom;
+  
+}
+
+
+#sectionCards h3{
+    margin-top:$sectionCards-TabTopTouchImg;
+    font-size: $sectionCards-H3FontSize;
+    color:$sectionCards-H3Color;
+}
+
+
+#sectionCards p{
+font-size:$sectionCards-PFontSize;
+   
+}
+
+
+
+#sectionCards .tabTop-1{
+    background-color:$sectionCards-TabBckColor;
+    padding-bottom:$sectionCards-TabTop1PaddingBottom;
+    padding-top:$sectionCards-TabTop1PaddingTop;
+   
+}
+
+
+
+#sectionCards .imagehautDroite img{
+width:$sectionCards-ImageHDWidth; 
+    height:$sectionCards-ImageHDHeight;
+}
+
+
+
+#sectionCards .tabTop-2{
+     background-color:$sectionCards-TabBckColor;
+    padding-bottom:$sectionCards-TabTop2PaddingBottom;
+    margin-top:$sectionCards-TabTop2Margin-Top;
+}
+
+
+
+#sectionCards .tabTop-2 h3{
+    padding-top:$sectionCards-TabTop2PaddingTop;
+}
+
+
+#sectionCards .tabTop-3{
+   background-color:$sectionCards-TabBckColor;
+    padding-bottom:$sectionCards-TabTop3PaddingBottomH3;
+}
+
+
+
+
+#sectionCards .rowSeparator{
+    margin-top:$sectionCards-RowSeparator;
+}
+
+
+#sectionCards .tabBottom-1{
+    background-color: $sectionCards-TabBckColor;
+    padding-bottom:$sectionCards-PaddingBottomTabBottom1;
+    
+}
+
+
+#sectionCards .tabBottom-1 h3{
+    padding-top: $sectionCards-PaddingTopH3;
+    
+}
+
+
+#sectionCards .tabBottom-2{
+    background-color:$sectionCards-TabBckColor;
+    padding-bottom:$sectionCards-PaddingBottomTab2Bottom;
+    padding-top:$sectionCards-PaddingTopTab2;
+}
+    
+
+#sectionCards .tabBottom-3{
+    background-color:$sectionCards-TabBckColor;
+    padding-bottom:$sectionCards-PaddingBottomTabBottomH3;
+}
+
+
+
+#sectionCards .tabBottom-3 h3{
+padding-top:$sectionCards-PaddingTopTab3;
+}
+
+
+
+
+#sectionCards .row{
+    width:100%;
+}
+
 
 #sectionCards h2{
 
@@ -172,14 +402,129 @@ $FooterBottom-Padding: 10px;
 
 }
 
+/*** SECTION DISTANCES ***/
+
+#distance{
+    height:200px;
+    background-color:#F5F5F5;
+}
+
 /*** SECTION PROFILES ***/
+
+
 
 #sectionProfiles{
 
+   background-color:$sectionProfiles-BckColor;
+  margin-top:$sectionProfiles-MarginTop;
+
+}
+
+
+
+#sectionProfiles .sectionProfilesLight{
+    
+    background-color:$sectionProfiles-LightgBckColor;
+    height: $sectionProfiles-LightgHeight;
+padding:$sectionProfiles-PaddingTopPaddingBottom  $sectionProfiles-PaddingLeftPaddingRight
+        $sectionProfiles-PaddingTopPaddingBottom  $sectionProfiles-PaddingLeftPaddingRight;
+    position:$sectionProfiles-PositionRelative;
+    bottom:$sectionProfiles-MarginBottom;
+    border-radius:$Section-Profiles-BorderRadius;
+
+    
+}
+
+
+
+#sectionProfiles .sectionProfilesLight p{
+    color:$sectionProfiles-sectionProfilesLightColorPandH3;
+    font-size:$sectionProfiles-sectionProfilesLightANDprofilesStrongFontSizeP;
+    padding-top:$sectionProfiles-PaddingTopP;
+}
+
+
+#sectionProfiles .sectionProfilesLight h3{
+     font-size:$sectionProfiles-sectionProfilesLightANDstrongH3Font-Size;
+    color:$sectionProfiles-sectionProfilesLightColorPandH3;
+}
+
+
+
+
+
+#sectionProfiles .secstionProfilesStrong{
+    background-color:$sectionProfiles-secstionProfilesStrongBckColor;
+    height:$sectionProfiles-secstionProfilesStrongHeight;
+padding:$sectionProfiles-PaddingTopPaddingBottom  $sectionProfiles-PaddingLeftPaddingRight
+        $sectionProfiles-PaddingTopPaddingBottom  $sectionProfiles-PaddingLeftPaddingRight; 
+    position:$sectionProfiles-PositionRelative;
+    bottom:$sectionProfiles-MarginBottom;
+     border-radius:$Section-Profiles-BorderRadius; 
+       
+}
+
+
+#sectionProfiles .secstionProfilesStrong p{
+    font-size:$sectionProfiles-sectionProfilesLightANDprofilesStrongFontSizeP;
+    padding-top:$sectionProfiles-PaddingTopP;   
+
+}
+
+
+
+#sectionProfiles .secstionProfilesStrong h3{
+    color:$sectionProfiles-sectionProfilesStrongColorH3;
+      
+}
+
+
+#sectionProfiles .secstionProfilesStrong .managerColor{
+    color:white;
+}
+
+#sectionProfiles .secstionProfilesStrongColor p{
+    color:$sectionProfiles-sectionProfilesStrongColorH3;
+  
+}
+
+#sectionProfiles .sectionProfilesImgGuillements{
+    color:$sectionProfiles-secstionProfilesStrongBckColor;
+}
+
+
+
+ #sectionProfiles .offset{
+   margin-left:$sectionProfiles-offsetMarginRight-offsetMarginLeft;
+    margin-right:$sectionProfiles-offsetMarginRight-offsetMarginLeft;
+    
+}
+
+
+
+
+#sectionProfiles .offset-0{
+     padding-right:$sectionProfiles-offsetPaddingRight-offsetPaddingLeft;
+    padding-left:$sectionProfiles-offsetPaddingRight-offsetPaddingLeft;
 }
 
 #sectionProfiles .sectionProfilesImg{
 
+}
+
+
+
+
+#sectionProfiles .sectionProfilesElements{
+    margin-top:$sectionProfiles-Remonter;
+}
+
+
+
+
+#sectionProfiles .imgProfiles{
+    position:$sectionProfiles-ImageRelative;
+    bottom:$sectionProfiles-ImageRemonter;
 }
 
 #sectionProfiles h3{
